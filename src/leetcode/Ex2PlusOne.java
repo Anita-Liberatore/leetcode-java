@@ -1,6 +1,6 @@
 package leetcode;
 
-public class ExPlusOne {
+public class Ex2PlusOne {
     public static void main(String[] args) {
 
         int array[] = {9,9};
