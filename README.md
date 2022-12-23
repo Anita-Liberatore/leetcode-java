@@ -1,4 +1,5 @@
 # leetcode-java
 Leetcode exercises in Java
 
-Ex1SingleNumber
+66. Plus One
+136. Single Number
