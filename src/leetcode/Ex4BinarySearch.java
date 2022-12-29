@@ -3,9 +3,6 @@ package leetcode;
 public class Ex4BinarySearch {
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4};
-        int num = 4;
-        System.out.println(search(arr,num));
 
         int[] arrTwo = {1,2,3,4,6,7};
         int numTwo = 2;
