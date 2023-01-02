@@ -11,6 +11,7 @@ A set of LeetCode exercises solved in Java
 - 704 - Binary Search 
 - 88 - Merge Sorted Array 
 - 83 - Remove Duplicates from Sorted List
+- 628 - Maximum Product of Three Numbers
 
 
 ## Authors

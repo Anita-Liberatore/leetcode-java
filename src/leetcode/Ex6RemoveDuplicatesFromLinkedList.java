@@ -62,20 +62,36 @@ class LinkedList {
         return node;
     }
 
+    public ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode current = head;
+
+
+        while(current != null) {
+            ListNode next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        return prev;
+    }
+
 }
 
 class Main {
     public static void main(String[] args) {
-        /* Start with the empty list */
         LinkedList list = new LinkedList();
-        ListNode node;
-        node = list.push(4);
-        node = list.push(1);
-        node = list.push(1);
+        list.head = new ListNode(1);
+        list.head.next = new ListNode(2);
+        list.head.next.next = new ListNode(3);
+        list.head.next.next.next = new ListNode(4);
 
-        node = list.deleteDuplicates(node);
+        System.out.println("Given linked list");
         list.printList();
-
+        list.head = list.reverseList(list.head);
+        System.out.println("");
+        System.out.println("Reversed linked list ");
+        list.printList();
 
     }
 }
