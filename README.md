@@ -13,6 +13,12 @@ A set of LeetCode exercises solved in Java
 - 83 - Remove Duplicates from Sorted List
 - 628 - Maximum Product of Three Numbers
 
+## Chapter Array
+In package array you will found exercises for section about array
+
+- Squares of a Sorted Array
+
+
 
 ## Authors
 
