@@ -16,6 +16,10 @@ A set of LeetCode exercises solved in Java
 ## Chapter Array
 In package array you will found exercises for section about array
 
+## Chapter Array-INTRODUCTION
+
+- Find Numbers with Even Number of Digits
+- Max Consecutive Ones
 - Squares of a Sorted Array
 
 
