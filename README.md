@@ -12,6 +12,7 @@ A set of LeetCode exercises solved in Java
 - 88 - Merge Sorted Array 
 - 83 - Remove Duplicates from Sorted List
 - 628 - Maximum Product of Three Numbers
+- 268 - Missing Number
 
 ## Chapter Array
 In package array you will found exercises for section about array
