@@ -1,6 +1,8 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -13,28 +15,28 @@ Output: [9,4]
  */
 public class Ex11IntersectionArray {
 	public static void main(String[] args) {
-		int[] nums1 = {1,2,2,1}; int[] nums2= {2,2};
-		int[] result = intersection(nums1, nums2); //print [2];
-		for (int i = 0; i < result.length; i++) {
-			System.out.println(result[i]);
-		}
+//		int[] nums1 = {1,2,2,1}; int[] nums2= {2,2};
+//		int[] result = intersection(nums1, nums2); //print [2];
+//		for (int i = 0; i < result.length; i++) {
+//			System.out.println(result[i]);
+//		}
 		
 		int[] nums3 = {4,9,5}; int[] nums4= {9,4,9,8,4};
 		int[] result2 = intersection(nums3, nums4); //print [9,4];
 		for (int i = 0; i < result2.length; i++) {
 			System.out.println(result2[i]);
 		}
-		
+//		
 		
 	}
 	
 	public static int[] intersection(int[] nums1, int[] nums2) {
-		Set<Integer> setNums1 = new HashSet<>();
-        for (int num : nums1) {
+		List<Integer> setNums1 = new ArrayList<>();
+        for (int num : nums2) {
         	setNums1.add(num);
         }
-        Set<Integer> setResult = new HashSet<>();
-        for (int num : nums2) {
+        List<Integer> setResult = new ArrayList<>();
+        for (int num : nums1) {
             if (setNums1.contains(num)) {
             	setResult.add(num);
             }
